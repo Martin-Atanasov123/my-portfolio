@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+#nav{
+    display: flex;
+    background-color: rgb(106, 168, 168);
+    text-align: right;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 3em;
+    
+}
+
+#nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+
+#logo a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: left;
+}
+
+/* MAIN CONTENT */
+
+.first-slide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(66, 55, 55);
+}
+
+.first-slide h1{
+    font-size: 3em;
+    color: rgb(189, 170, 170);
+    text-align: center;
+
+}
+
+.first-slide img{
+    width: 300px;
+    height: 300px;
+    border-radius: 500em;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(170, 127, 127);
+    
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(148, 66, 66);
+    height: 100vh;
+}
