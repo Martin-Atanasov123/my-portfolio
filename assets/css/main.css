@@ -82,10 +82,12 @@
 }
 
 .right_side {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     background-image: url(/assets/img/banner.jpg);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 40%;
     height: 100vh;
 }
 
@@ -95,7 +97,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vh;
+    width: 100% ;
     background-color: rgb(148, 66, 66);
     border: 10px solid black;
 }
