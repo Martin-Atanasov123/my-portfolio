@@ -105,10 +105,10 @@
 }
 
 .third_page .left_side{
-    background-image: url(/assets/img/banner.jpg);
+    background-image: url(/assets/img/realtime-enhance-enhanced.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30%;
+    width: 40%;
 }
 
 .third_page .right_side {
@@ -117,7 +117,7 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: rgb(88, 65, 65);
-    width: 70%;
+    width: 60%;
     padding-top: 6em;
     opacity: 90%;
 }
