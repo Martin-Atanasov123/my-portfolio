@@ -79,20 +79,18 @@
     align-items: center;
     height: 100vh;
     background-color: rgb(170, 127, 127);
-    border: 10px solid black;
 }
 
 .right_side {
-    border: 10px solid black;
     height: 100vh;
     background-color: rgb(194, 109, 109);
     
 }
 
 .right_side img{
+    
     width: 950px;
-    height: 900px;
-
+    height: 100vh;
 }
 
 .third{
