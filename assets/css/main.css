@@ -108,7 +108,7 @@
     background-image: url(/assets/img/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 30%;
 }
 
 .third_page .right_side {
@@ -116,8 +116,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: rgb(170, 127, 127);
-    width: 60%;
+    background-color: rgb(88, 65, 65);
+    width: 70%;
     padding-top: 6em;
     opacity: 90%;
 }
