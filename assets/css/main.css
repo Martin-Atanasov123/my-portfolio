@@ -7,7 +7,10 @@
 }
 
 body{
+    background-image: url("/assets/img/banner.jpg");
     background-color: rgb(143, 139, 146);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #nav{
     display: flex;
