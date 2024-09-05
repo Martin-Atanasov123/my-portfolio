@@ -3,9 +3,12 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    
 }
 
-
+body{
+    background-color: rgb(143, 139, 146);
+}
 #nav{
     display: flex;
     background-color: rgb(106, 168, 168);
