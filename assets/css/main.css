@@ -122,4 +122,12 @@
     opacity: 90%;
 }
 
+/* Certificates */
+
+.certificate_page{
+    display: flex;
+    height: 100vh;
+    width: 100% ;
+    border: 1px solid black;
+}
 
