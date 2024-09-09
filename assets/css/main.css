@@ -131,8 +131,18 @@
 
 .certificates_page{
     display: flex;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
     width: 100% ;
     background-color: rgb(43, 42, 42);
 }
-
+.certificates_page ul {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    list-style-type: none;
+    gap: 1em;
+    width: 80%;
+    padding-top: 6em;
+}
