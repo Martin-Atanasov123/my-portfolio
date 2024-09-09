@@ -88,17 +88,17 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: rgb(170, 127, 127);
+    background-color: #2D4150;
     width: 60%;
     padding-top: 6em;
     opacity: 90%;
 }
 
 .about_me_page .right_side {
-    background-image: url(/assets/img/banner.jpg);
+    background-image: url(/assets/img/horses.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 50%;
 }
 
 /* THIRD */
@@ -137,6 +137,7 @@
     width: 100% ;
     background-color: rgb(43, 42, 42);
 }
+
 .certificates_page ul {
     display: flex;
     justify-content: center;
