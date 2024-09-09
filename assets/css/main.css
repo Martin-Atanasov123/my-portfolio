@@ -25,11 +25,11 @@
 #nav ul li a{
     color: rgb(223, 199, 199);
     text-decoration: none;
-    
+    padding: 2px;
 }
 #nav ul li a:hover{
     color: rgb(170, 114, 114);
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid rgb(88, 80, 80);
     border-radius: 10px;
 }
 
