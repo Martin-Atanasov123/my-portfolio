@@ -99,7 +99,7 @@
 }
 
 .about_me_page .right_side {
-    background-image: url(/assets/img/horses.png);
+    background-image: url(/my-portfolio/assets/img/horses.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
@@ -114,7 +114,7 @@
 }
 
 .third_page .left_side {
-    background-image: url(/assets/img/realtime-enhance-enhanced.png);
+    background-image: url(/my-portfolio/assets/img/realtime-enhance-enhanced.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
@@ -138,7 +138,7 @@
     align-items: center;
     flex-direction: column;
     padding: 1em;
-    height: 120vh;
+    height: 110vh;
     background-color: rgb(43, 42, 42);
 }
 
@@ -180,7 +180,7 @@
     display: grid;
     grid-gap: 1rem;
     padding: 1rem;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     font-family: var(--font-sans);
 }
@@ -209,7 +209,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: 110%;
     background-size: cover;
     background-position: 0 0;
