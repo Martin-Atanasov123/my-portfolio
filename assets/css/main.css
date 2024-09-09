@@ -185,17 +185,11 @@
     font-family: var(--font-sans);
 }
 
-@media (min-width: 600px) {
-    .page-content {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
+.page-content {
+    grid-template-columns: repeat(4, 1fr);
 }
 
-@media (min-width: 800px) {
-    .page-content {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
 
 .card {
     position: relative;
@@ -203,16 +197,11 @@
     align-items: flex-end;
     overflow: hidden;
     width: 100%;
+    height: 360px;
     text-align: center;
     color: whitesmoke;
     background-color: whitesmoke;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 600px) {
-    .card {
-        height: 350px;
-    }
 }
 
 .card:before {
@@ -296,7 +285,7 @@
     cursor: pointer;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    font-size: 0.65rem;
+    font-size: 1em;
     font-weight: bold;
     letter-spacing: 0.025rem;
     text-transform: uppercase;
