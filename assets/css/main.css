@@ -133,7 +133,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    padding: 1em;
+    height: 150vh;
     width: 100% ;
     background-color: rgb(43, 42, 42);
 }
@@ -141,9 +142,22 @@
 .certificates_page ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     flex-direction:row;
+    align-items: center;
     list-style-type: none;
-    gap: 1em;
-    width: 80%;
+    gap: 3em;
+    width: 100%;
     padding-top: 6em;
+}
+
+.certificates_page ul img{
+    width: 400px;
+    height: 500px;
+    border: 1em solid rgb(0, 0, 0);
+}
+
+#Sololearn{
+    width: 600px;
+    height: 500px;
 }
