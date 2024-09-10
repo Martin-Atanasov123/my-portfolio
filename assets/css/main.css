@@ -156,7 +156,6 @@
 .page-content {
     display: grid;
     grid-gap: 1rem;
-    padding: 1rem;
     max-width: 90%;
     margin: 0 auto;
     font-family: var(--font-sans);
@@ -181,11 +180,11 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
 .card:nth-child(6){
-    width: 160%;
-
+    width: 150%;
 }
 .card:nth-child(7){
     width: 150%;
+    margin-left: 12.8em; 
 }
 
 
