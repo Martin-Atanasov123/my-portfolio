@@ -137,7 +137,7 @@
     align-items: center;
     flex-direction: column;
     padding: 1em;
-    height: 120vh;
+    height: 150vh;
     background-color: rgb(43, 42, 42);
 }
 
@@ -164,7 +164,7 @@
 
 
 .page-content {
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 
@@ -180,6 +180,14 @@
     background-color: whitesmoke;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
+.card:nth-child(6){
+    width: 160%;
+
+}
+.card:nth-child(7){
+    width: 150%;
+}
+
 
 .card:before {
     content: "";
@@ -193,6 +201,7 @@
     transition: transform calc(var(--d) * 1.5) var(--e);
     pointer-events: none;
 }
+
 
 .card:after {
     content: "";
