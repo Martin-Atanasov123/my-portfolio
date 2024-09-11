@@ -89,23 +89,25 @@
 
 .about_me_page .left_side {
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: center;
     background-color: #2D4150;
     width: 60%;
-    padding: 6em;
-    padding-top: 3em;
     opacity: 90%;
-    text-wrap: wrap;
+    padding: 6em;
     font-size: 24px;
-    text-indent: 3em;
 }
+.about_me_page .left_side h2{
 
+    text-align: center;
+    padding-bottom: 2em;
+}
 .about_me_page .left_side p{
+    text-indent: 3em;
     text-align: left;
     line-height: 1.5;
 }
+
 .about_me_page .right_side {
     background-image: url(/my-portfolio/assets/img/horses.png);
     background-size: cover;
