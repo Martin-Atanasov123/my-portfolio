@@ -91,13 +91,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: #2D4150;
     width: 60%;
-    padding-top: 6em;
+    padding: 6em;
+    padding-top: 3em;
     opacity: 90%;
+    text-wrap: wrap;
+    font-size: 24px;
+    text-indent: 3em;
 }
 
+.about_me_page .left_side p{
+    text-align: left;
+    line-height: 1.5;
+}
 .about_me_page .right_side {
     background-image: url(/my-portfolio/assets/img/horses.png);
     background-size: cover;
@@ -137,7 +145,7 @@
     align-items: center;
     flex-direction: column;
     padding: 1em;
-    height: 120vh;
+    height: 130vh;
     background-color: rgb(43, 42, 42);
 }
 
