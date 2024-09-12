@@ -400,41 +400,19 @@
 .project_images img:hover {
     background-color: #7a2323;
     border: 1px solid #ffffff;
+    justify-content: center;
+    align-items: center;
 }
 
+/* CONTACT ME  */
 
-/* the button */
-
-.project_bnt {
-    position: relative;
-    background-color: #856060;
-    color: antiquewhite;
-}
-
-.project_bnt::before,
-.project_bnt::after {
-    content: '';
-    position: absolute;
-    left: 50%;
+.contact_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 2px;
-    background-color: #576566;
-    transform-origin: center;
-    transform: translateX(-50%) scaleX(0);
-    transition: transform 0.4s ease;
+    height: 20vh;
+    background-color: rgb(59, 61, 65);
+    color: rgb(190, 190, 190);
 }
-
-.project_bnt::before {
-    top: 0;
-}
-
-.project_bnt::after {
-    bottom: 0;
-}
-
-.project_bnt:hover::before,
-.project_bnt:hover::after {
-    transform: translateX(-50%) scaleX(1);
-}
-
-
