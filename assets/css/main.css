@@ -97,12 +97,14 @@
     padding: 6em;
     font-size: 24px;
 }
-.about_me_page .left_side h2{
+
+.about_me_page .left_side h2 {
 
     text-align: center;
     padding-bottom: 2em;
 }
-.about_me_page .left_side p{
+
+.about_me_page .left_side p {
     text-indent: 3em;
     text-align: left;
     line-height: 1.5;
@@ -198,12 +200,14 @@
     background-color: whitesmoke;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
-.card:nth-child(6){
+
+.card:nth-child(6) {
     width: 150%;
 }
-.card:nth-child(7){
+
+.card:nth-child(7) {
     width: 150%;
-    margin-left: 12.8em; 
+    margin-left: 12.8em;
 }
 
 
@@ -250,12 +254,15 @@
 .card:nth-child(4):before {
     background-image: url("/my-portfolio/assets/img/Programming\ Basics\ -\ March\ 2023\ -\ Certificate.jpeg");
 }
+
 .card:nth-child(5):before {
     background-image: url("/my-portfolio/assets/img/programizz.jpeg");
 }
+
 .card:nth-child(6):before {
     background-image: url("/my-portfolio/assets/img/Sololearn\ 1.2.jpg");
 }
+
 .card:nth-child(7):before {
     background-image: url("/my-portfolio/assets/img/Sololearn\ 2.jpg");
 }
@@ -363,7 +370,7 @@
 
 /* Projects */
 
-.projects_page{
+.projects_page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -374,7 +381,57 @@
     color: rgb(190, 190, 190);
 }
 
-.projects_page img{
-    width: 100px;
-    height: 100px;
+.project_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.project_images img {
+    background-image: url(/my-portfolio/assets/img/banner.jpg);
+    width: 400px;
+    height: 400px;
+    background-color: #585050;
+    border: 1px solid #000000;
+}
+
+.project_images img:hover {
+    background-color: #7a2323;
+    border: 1px solid #ffffff;
+    
+}
+/* the button */
+.project_bnt {
+    position: relative;
+    background-color: #000000;
+    color: antiquewhite;
+    background-image: url(/my-portfolio/assets/img/banner.jpg);
+}
+
+.project_bnt::before,
+.project_bnt::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #576566;
+    transform-origin: center;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.4s ease;
+}
+
+.project_bnt::before {
+    top: 0;
+}
+
+.project_bnt::after {
+    bottom: 0;
+}
+
+.project_bnt:hover::before,
+.project_bnt:hover::after {
+    transform: translateX(-50%) scaleX(1);
 }
