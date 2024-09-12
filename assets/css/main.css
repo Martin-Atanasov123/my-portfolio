@@ -400,14 +400,15 @@
 .project_images img:hover {
     background-color: #7a2323;
     border: 1px solid #ffffff;
-    
 }
+
+
 /* the button */
+
 .project_bnt {
     position: relative;
-    background-color: #000000;
+    background-color: #856060;
     color: antiquewhite;
-    background-image: url(/my-portfolio/assets/img/banner.jpg);
 }
 
 .project_bnt::before,
@@ -435,3 +436,5 @@
 .project_bnt:hover::after {
     transform: translateX(-50%) scaleX(1);
 }
+
+
