@@ -412,7 +412,29 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 20vh;
+    height: 50vh;
     background-color: rgb(59, 61, 65);
     color: rgb(190, 190, 190);
+}
+.contact_page form,textarea{
+    display: flex;
+    flex-direction: row;
+    width: 50em;
+    height: 9em;
+    align-self: center;
+    align-items: center;
+    background-color: rgb(217, 235, 235);
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #7a2323;
+    align-content: center;
+    justify-content: center;
+}
+footer ul  {
+    list-style-type: none;
 }
