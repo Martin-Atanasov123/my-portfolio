@@ -373,3 +373,8 @@
     background-color: rgb(29, 40, 61);
     color: rgb(190, 190, 190);
 }
+
+.projects_page img{
+    width: 100px;
+    height: 100px;
+}
