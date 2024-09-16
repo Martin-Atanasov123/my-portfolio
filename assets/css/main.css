@@ -465,7 +465,7 @@ footer ul  {
 }
 .social_media{
     display: flex;
+    flex-direction: row;
     gap: 1em;
-    justify-content: center;
-    
+    justify-content:center;
 }
