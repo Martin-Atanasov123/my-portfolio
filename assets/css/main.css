@@ -444,6 +444,8 @@ input[type="email"]{
     border: none;
     padding: 10px;
     border-radius: 5px;
+    width: 9em;
+    height: 3em;
     cursor: pointer;
     margin-left: 10px;
 }
