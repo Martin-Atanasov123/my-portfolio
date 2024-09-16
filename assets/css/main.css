@@ -415,14 +415,21 @@
     background-color: rgb(59, 61, 65);
     color: rgb(190, 190, 190);
 }
-.contact_page form,textarea{
+.contact_page form{
     display: flex;
     flex-direction: row;
     width: 50em;
-    height: 9em;
+    height: 10em;
     align-self: center;
     align-items: center;
     background-color: rgb(217, 235, 235);
+}
+
+.contact_page form textarea{
+    flex-direction: column;
+    width: 40em;
+    border-radius: 5px;
+    flex-shrink: 1;
 }
 
 /* FOOTER */
