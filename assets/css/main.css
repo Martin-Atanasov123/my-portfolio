@@ -419,6 +419,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1.5em;
     width: 80em;
     height: 20em;
     border-radius: 1em;
@@ -430,24 +431,21 @@ input[type="email"]{
     width: 20em;
     height: 3em;
     border-radius: 5px;
-    margin-right: 10px;
 }
 .contact_page form textarea{
-    width: 15em;
-    height: 10em;
+    width: 20em;
+    height: 15em;
     border-radius: 5px;
-    
 }
 .contact_page form button{
-    background-color: rgb(59, 61, 65);
-    color: rgb(190, 190, 190);
-    border: none;
+    height: 3em;
+    width: 9em;
     padding: 10px;
     border-radius: 5px;
-    width: 9em;
-    height: 3em;
+    border: none;
     cursor: pointer;
-    margin-left: 10px;
+    color: rgb(190, 190, 190);
+    background-color: rgb(59, 61, 65);
 }
 
 /* FOOTER */
