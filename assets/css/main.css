@@ -460,8 +460,9 @@ footer {
     width: 100%;
     height: 20vh;
 }
-footer ul  {
+footer ul li {
     list-style-type: none;
+    
 }
 .social_media{
     display: flex;
