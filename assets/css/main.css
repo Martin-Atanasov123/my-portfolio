@@ -454,9 +454,16 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: #7a2323;
-    align-content: center;
     justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    height: 20vh;
 }
 footer ul  {
     list-style-type: none;
+}
+.social_media{
+    display: flex;
+    gap: 1em;
 }
