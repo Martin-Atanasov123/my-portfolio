@@ -417,18 +417,35 @@
 }
 .contact_page form{
     display: flex;
-    flex-direction: column;
-    width: 50em;
-    height: 10em;
-    align-self: center;
+    justify-content: center;
     align-items: center;
+    width: 80em;
+    height: 20em;
+    border-radius: 1em;
     background-color: rgb(217, 235, 235);
 }
 
-.contact_page form textarea{
-    width: 40em;
+.contact_page form input[type="text"],.contact_page form 
+input[type="email"]{
+    width: 20em;
+    height: 3em;
     border-radius: 5px;
-    flex-shrink: 1;
+    margin-right: 10px;
+}
+.contact_page form textarea{
+    width: 15em;
+    height: 10em;
+    border-radius: 5px;
+    
+}
+.contact_page form button{
+    background-color: rgb(59, 61, 65);
+    color: rgb(190, 190, 190);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 /* FOOTER */
