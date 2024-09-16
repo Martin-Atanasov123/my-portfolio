@@ -417,7 +417,7 @@
 }
 .contact_page form{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 50em;
     height: 10em;
     align-self: center;
@@ -426,7 +426,6 @@
 }
 
 .contact_page form textarea{
-    flex-direction: column;
     width: 40em;
     border-radius: 5px;
     flex-shrink: 1;
