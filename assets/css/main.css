@@ -26,6 +26,8 @@
 }
 
 #nav ul li a {
+    flex-wrap: wrap;
+    flex: 1 0 0;
     color: rgb(223, 199, 199);
     text-decoration: none;
     padding: 2px;
@@ -117,6 +119,7 @@
     background-image: url(/my-portfolio/assets/img/horses.png);
     background-size: cover;
     background-repeat: no-repeat;
+    flex-wrap: nowrap;
     width: 50%;
 }
 
