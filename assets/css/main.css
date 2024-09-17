@@ -489,4 +489,11 @@ footer ul li a{
     justify-content:center;
 }
 
+/* RESPONSIVE DESIGN */
+@media  (max-width :1080px){
+    .first-page{
+        height: 40vh;
+    }
+}
+
 
