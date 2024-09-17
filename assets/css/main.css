@@ -491,9 +491,18 @@ footer ul li a{
 
 /* RESPONSIVE DESIGN */
 @media  (max-width :1080px){
-    .first-page{
-        height: 40vh;
-    }
+    
+.first-page{
+    height: 40vh;
+}
+
+.about_me_page{
+    height: 50vh;
+}
+
+.about_me_page .right_side{
+    width: 0;
+}
 }
 
 
