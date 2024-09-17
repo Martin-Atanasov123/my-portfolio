@@ -212,7 +212,7 @@
 }
 
 .card:nth-child(7) {
-    width: 150%;
+    width: 145%;
     margin-left: 12.8em;
 }
 
@@ -427,7 +427,7 @@
     align-items: center;
     margin-top: 30px;
     gap: 1.5em;
-    width: 80em;
+    width: auto;
     height: 20em;
     border-radius: 1em;
     background-color: rgb(217, 235, 235);
