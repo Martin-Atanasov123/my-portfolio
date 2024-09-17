@@ -455,7 +455,7 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: #7a2323;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 1em;
     width: 100%;
@@ -465,9 +465,9 @@ footer ul li {
     list-style-type: none;
 
 }
-.social_media{
+.social_media p{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 1em;
     justify-content:center;
 }
