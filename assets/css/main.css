@@ -461,13 +461,22 @@ footer {
     width: 100%;
     height: 20vh;
 }
-footer ul li {
-    list-style-type: none;
-
+footer ul li a{
+    color: white;
+    text-decoration: none;
 }
 .social_media p{
     display: flex;
     flex-direction: column;
     gap: 1em;
     justify-content:center;
+}
+
+.social_media a img{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    align-items: center;
+    color: white;
+    text-decoration: none;
 }
