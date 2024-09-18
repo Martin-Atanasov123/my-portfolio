@@ -390,21 +390,21 @@
 .project_images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
     margin-top: 100px;
 }
 
 .project_images img {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 500px;
     background-color: #585050;
     border: 1px solid #000000;
 }
 
 .project_images img:hover {
     background-color: #b39494;
-    border: 1px solid #ffffff;
+    border: 1px solid #c09191;
     padding: 1em;
 }
 
