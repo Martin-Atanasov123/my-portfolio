@@ -403,9 +403,9 @@
 }
 
 .project_images img:hover {
-    background-color: #7a2323;
+    background-color: #b39494;
     border: 1px solid #ffffff;
-    transition: ease-in 0.1s ease, border-color 0.3s ease;
+    padding: 1em;
 }
 
 /* CONTACT ME  */
