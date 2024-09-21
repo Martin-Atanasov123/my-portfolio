@@ -141,7 +141,7 @@
     background-repeat: no-repeat;
     flex-wrap: nowrap;
     width: 50%;
-    animation: secondPage 2.5s ease 0s 1 normal forwards ;
+    animation: secondPage 2.5s ease 0S 1 normal forwards ;
 }
 
 /* THIRD */
