@@ -155,15 +155,14 @@
     background-color: #2D4150;
     width: 50%;
     padding: 6em;
-    font-size: 24px;
-    opacity: 0%;
-    /* animation: secondPage 2.5s ease 0s 1 normal forwards ; */
+    font-size: 24px;;
+    animation: secondPage 2.5s ease 0s 1 normal forwards ;
 }
 
 .about_me_page .left_side h2 {
     text-align: center;
     padding-bottom: 2em;
-    /* animation: secondPage 2.5s ease 0s 1 normal forwards ; */
+    animation: secondPage 2.5s ease 0s 1 normal forwards ;
 }
 
 .about_me_page .left_side p {
@@ -178,18 +177,9 @@
     background-repeat: no-repeat;
     flex-wrap: nowrap;
     width: 50%;
-    /* animation: secondPage 2.5s ease 0S 1 normal forwards ; */
+    animation: fadeInUp 3s forwards;
 }
 
-.about_me_page .left_side .hidden {
-    opacity: 0;
-    animation: none;
-}
-
-/* Add animation when the section is in view */
-.about_me_page .left_side .visible {
-    animation: fadeInUp 3s forwards; /* Animation will trigger when this class is added */
-}
 /* THIRD */
 .third_page {
     display: flex;
