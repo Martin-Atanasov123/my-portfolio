@@ -101,13 +101,49 @@
 
 /* SECOND */
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); /* Start slightly below the viewport */
+    }
+    /* 10%{
+        opacity: 10%;
+    } */
+    20%{
+        opacity: 20%;
+    }
+    /* 30%{
+        opacity: 30%;
+    } */
+    40%{
+        opacity: 40%;
+    }
+    /* 50%{
+        opacity: 50%;
+    } */
+    60%{
+        opacity: 60%;
+    }
+    /* 70%{
+        opacity: 70%;
+    } */
+    80%{
+        opacity: 80%;
+    }
+    100% {
+        opacity: 100%; /* Fully visible at the end */
+        transform: translateY(0); /* Move to the original position */
+    }
+}
+
+/* Hidden by default, and animation will only run when visible */
 .about_me_page {
     display: flex;
     width: 100%;
     height: 100vh;
     border: 1px solid black;
     background-color: #2D4150;
-
+    
 }
 
 .about_me_page .left_side {
@@ -120,13 +156,14 @@
     width: 50%;
     padding: 6em;
     font-size: 24px;
-    animation: secondPage 2.5s ease 0s 1 normal forwards ;
+    opacity: 0%;
+    /* animation: secondPage 2.5s ease 0s 1 normal forwards ; */
 }
 
 .about_me_page .left_side h2 {
     text-align: center;
     padding-bottom: 2em;
-    animation: secondPage 2.5s ease 0s 1 normal forwards ;
+    /* animation: secondPage 2.5s ease 0s 1 normal forwards ; */
 }
 
 .about_me_page .left_side p {
@@ -141,9 +178,18 @@
     background-repeat: no-repeat;
     flex-wrap: nowrap;
     width: 50%;
-    animation: secondPage 2.5s ease 0S 1 normal forwards ;
+    /* animation: secondPage 2.5s ease 0S 1 normal forwards ; */
 }
 
+.about_me_page .left_side .hidden {
+    opacity: 0;
+    animation: none;
+}
+
+/* Add animation when the section is in view */
+.about_me_page .left_side .visible {
+    animation: fadeInUp 3s forwards; /* Animation will trigger when this class is added */
+}
 /* THIRD */
 .third_page {
     display: flex;
