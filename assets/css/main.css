@@ -506,23 +506,30 @@ header{
 
 .contact_page form input[type="text"],.contact_page form 
 input[type="email"]{
+    border: 1px solid rgb(0, 0, 0);
     width: 20em;
     height: 3em;
     border-radius: 5px;
 }
 .contact_page form textarea{
+    border: 1px solid rgb(0, 0, 0); 
     width: 25em;
     height: 12em;
     border-radius: 5px;
 }
 .contact_page form button{
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
     height: 3em;
     width: 9em;
     padding: 10px;
     border-radius: 55px;
-    cursor: pointer;
-    color: rgb(190, 190, 190);
     background-color: rgb(59, 61, 65);
+}
+.contact_page form button:hover{
+    border: none !important;
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 92, 92);
 }
 
 /* FOOTER */
