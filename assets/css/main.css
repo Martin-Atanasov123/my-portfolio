@@ -146,12 +146,11 @@ header{
         opacity: 80%;
     }
     100% {
-        opacity: 100%; /* Fully visible at the end */
-        transform: translateY(0); /* Move to the original position */
+        opacity: 100%; 
+        transform: translateY(0); 
     }
 }
 
-/* Hidden by default, and animation will only run when visible */
 .about_me_page {
     display: flex;
     width: 100%;
