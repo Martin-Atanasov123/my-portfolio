@@ -494,15 +494,14 @@ header{
 }
 .contact_page form{
     display: flex;
-    padding: 3em;
     justify-content: space-evenly;
     align-items: center;
+    padding: 3em;
     margin-top: 30px;
     gap: 1.5em;
-    width: auto;
     height: 20em;
     border-radius: 1em;
-    background-color: rgb(217, 235, 235);
+    background-color: rgb(204, 235, 235);
 }
 
 .contact_page form input[type="text"],.contact_page form 
@@ -512,16 +511,15 @@ input[type="email"]{
     border-radius: 5px;
 }
 .contact_page form textarea{
-    width: 20em;
-    height: 15em;
+    width: 25em;
+    height: 12em;
     border-radius: 5px;
 }
 .contact_page form button{
     height: 3em;
     width: 9em;
     padding: 10px;
-    border-radius: 5px;
-    border: none;
+    border-radius: 55px;
     cursor: pointer;
     color: rgb(190, 190, 190);
     background-color: rgb(59, 61, 65);
