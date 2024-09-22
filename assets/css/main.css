@@ -168,7 +168,6 @@ header{
     flex-direction: column;
     justify-content: center;
     background-color: #2D4150;
-    width: 50%;
     padding: 6em;
     font-size: 24px;;
     animation: secondPage 2.5s ease 0s 1 normal forwards ;
