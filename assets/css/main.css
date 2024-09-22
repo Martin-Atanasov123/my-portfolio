@@ -78,9 +78,9 @@ header{
     text-align: left;
 }
 
-/* MAIN CONTENT */
 
-/* FIRST */
+
+/* FIRST-PAGE */
 
 .first-page {
     display: flex;
@@ -114,7 +114,7 @@ header{
     font-size: 2em;
 }
 
-/* SECOND */
+/* SECOND-PAGE */
 
 @keyframes fadeInUp {
     0% {
@@ -219,7 +219,7 @@ header{
     padding-top: 6em;
 }
 
-/* Certificates */
+/* Certificates-PAGE */
 
 .certificates_page {
     align-items: center;
@@ -444,7 +444,7 @@ header{
     }
 }
 
-/* Projects */
+/* Projects-PAGE */
 
 .projects_page {
     display: flex;
@@ -478,7 +478,7 @@ header{
     padding: 1em;
 }
 
-/* CONTACT ME  */
+/* CONTACT ME-PAGE  */
 
 .contact_page{
     display: flex;
