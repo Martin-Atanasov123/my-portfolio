@@ -555,20 +555,26 @@ footer {
     align-items: center;
     padding: 1em;
     width: 100%;
-    height: 20vh;
+    height: 15vh;
 }
-
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
 footer ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+}
+footer ul li a:hover{
+    color: rgb(255, 255, 255);
 }
 
 .social_media a img {
-
-    height: 2em;
     align-items: center;
-    color: white;
     text-decoration: none;
+    height: 2.5em;
 }
 
 .social_media a:hover img {
@@ -576,6 +582,7 @@ footer ul li a {
 }
 
 .social_media p {
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
