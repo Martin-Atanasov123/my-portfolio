@@ -514,7 +514,6 @@ header {
     background-color: rgb(204, 235, 235);
 }
 
-.contact_page form input[type="text"],
 .contact_page form input[type="email"] {
     border: 1px solid rgb(0, 0, 0);
     width: 20em;
@@ -546,6 +545,7 @@ header {
     color: rgb(255, 255, 255);
     background-color: rgb(85, 92, 92);
 }
+
 
 /* FOOTER */
 
