@@ -526,7 +526,7 @@ header {
     border: 1px solid rgb(0, 0, 0);
     width: 25em;
     height: 12em;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 .contact_page form button {
