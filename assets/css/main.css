@@ -670,15 +670,18 @@ footer ul li a:hover {
     }
 
 
+    .card:nth-child(7) {
+        margin: 0;
+    }
+
     .contact_page form {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding: 3em;
-        margin-top: 30px;
+        padding: 2em;
         gap: 1.5em;
-        height: 20em;
-        width: 90vh;
+        height: 15em;
+        width: 87vh;
         border-radius: 1em;
         background-color: rgb(204, 235, 235);
     }
