@@ -48,9 +48,8 @@ header {
     animation: nav 2s ease-in-out 0s 1 normal forwards;
     display: flex;
     background-color: rgb(38, 39, 39);
-    text-align: right;
-    justify-content: space-between;
-    padding: 1em;
+    justify-content: space-evenly;
+    padding: 1.5em;
 }
 
 #nav ul {
