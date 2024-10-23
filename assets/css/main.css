@@ -208,7 +208,6 @@ header {
     height: 100vh;
     width: 100%;
     border: 1px solid black;
-    background-color: #3d3c2d;
 }
 
 .third_page .left_side {
@@ -223,9 +222,15 @@ header {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #3d3c2d;
+    background-color: #7c65ffb0;
     flex-grow: 1;
     padding-top: 6em;
+}
+.third_page .right_side p{
+    text-indent: 3em;
+    font-size: large;
+    text-align:center;
+    line-height: 1.5;
 }
 
 /* Certificates-PAGE */
@@ -238,9 +243,17 @@ header {
     padding: 3em;
     width: 100%;
     min-height: 100vh; /* Ensures the content takes at least the full viewport height */
-    background-color: rgb(75, 85, 102);
+    background-color: #8babf1;
     color: rgb(190, 190, 190);
 }
+
+.certificates_page > p {
+    text-align: center;
+    padding-bottom: 3em;
+    font-size:xx-large;
+    color: #ffffff;
+}
+
 
 .page-content {
     display: flex;
