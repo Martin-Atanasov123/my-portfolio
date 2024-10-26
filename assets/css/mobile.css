@@ -6,12 +6,11 @@
     /* Header */
     header {
         background-color: rgb(65, 55, 55);
-        padding: 1em;
     }
 
     /* Navigation */
     #nav {
-        display: none;
+        
     }
 
     /* First Page */
@@ -85,7 +84,6 @@
     }
 
     .contact_page form {
-        flex-direction: column;
         height: auto;
         padding: 1em;
     }
@@ -103,7 +101,6 @@
 
     /* Footer */
     footer {
-        flex-direction: column;
         height: auto;
         padding: 1em;
     }
