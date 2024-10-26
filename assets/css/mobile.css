@@ -9,8 +9,26 @@
     }
 
     /* Navigation */
-    #nav {
-        
+    #nav > ul{
+        display: none;
+    }
+
+    #mob {
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        font-size: xx-large;
+        flex-basis: 100%; 
+        padding: 1em;
+        background-color:#f57600;
+    }
+    #mob > ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        color: aliceblue;
+        padding: 1em;
+        font-size: 1em;
     }
 
     /* First Page */

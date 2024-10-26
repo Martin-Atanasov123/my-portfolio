@@ -52,6 +52,10 @@ header {
     padding: 1.5em;
 }
 
+#mob {
+    display: none ;
+}
+
 #nav ul {
     display: flex;
     justify-content: center;
