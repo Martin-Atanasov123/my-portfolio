@@ -38,16 +38,16 @@
     }
 
     .first-page h2 {
-        font-size: 4em;
+        font-size: 6em;
     }
 
     .first-page img {
-        width: 350px;
-        height: 350px;
+        width: 450px;
+        height: 450px;
     }
 
     .first-page p {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     /* About Me Page */
