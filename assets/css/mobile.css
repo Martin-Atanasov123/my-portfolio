@@ -18,12 +18,15 @@
         flex-direction: column;
         color: aliceblue;
         font-size: xx-large;
-        flex-basis: 100%; 
-        padding: 1em;
         background-color:#6e4823;
+        border: solid 10px black;
+        border-radius: 1em;
         position:absolute;
         top: 10px;
         left: 10px;
+        flex-basis: 100%; 
+        padding: 1em;
+        width: 40%;
     }
     #mob > ul{
         display: flex;
@@ -36,7 +39,7 @@
 
     /* First Page */
     .first-page {
-        height: 100vh;
+        height: 110vh;
         padding: 2em;
     }
 
