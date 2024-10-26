@@ -1,60 +1,128 @@
-/* mobile devices */
-@media (max-width :768px) {
 
+/* Add this at the beginning of your CSS file */
+@media only screen and (max-width: 760px) {
+    /* Styles for mobile devices */
+
+    /* Header */
+    header {
+        background-color: rgb(65, 55, 55);
+        padding: 1em;
+    }
+
+    /* Navigation */
+    #nav {
+        display: none;
+    }
+
+    /* First Page */
     .first-page {
-        display: flex;
+        height: 100vh;
+        padding: 2em;
     }
-    .about_me_page{
-        display: flex;
-        flex: 1 1 0;
-    }
-    .about_me_page .left_side{
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 60vh;
-        animation: none;
 
+    .first-page h2 {
+        font-size: 2em;
     }
-    .about_me_page .left_side h2 {
-        text-align: center;
-        animation: none;
-        padding-bottom: 2em;
-    }
-    
-    .about_me_page .left_side p {
-        text-wrap: wrap;
-        text-align: center;
-        animation: none;
-        text-indent: 3em;
-        line-height: 1.1;
 
+    .first-page img {
+        width: 150px;
+        height: 150px;
     }
-    .about_me_page .right_side {
-        background-image: none;
-        width: 0%;
+
+    .first-page p {
+        font-size: 1.5em;
     }
-    
-    .third_page{
-        display: flex;
-        flex-wrap: wrap;
+
+    /* About Me Page */
+    .about_me_page {
         flex-direction: column;
-        height: 60vh;
+        height: auto;
     }
 
+    .about_me_page .left_side {
+        padding: 2em;
+        font-size: 1.2em;
+    }
 
-    .card:nth-child(7) {
-        margin: 0;
+    .about_me_page .right_side {
+        display: none;
+    }
+
+    /* Third Page */
+    .third_page {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .third_page .left_side {
+        display: none;
+    }
+
+    .third_page .right_side {
+        padding: 2em;
+        font-size: 1.2em;
+    }
+
+    /* Certificates Page */
+    .certificates_page {
+        padding: 2em;
+    }
+
+    .certificates_page>p {
+        font-size: 1.5em;
+    }
+
+    .card {
+        width: 250px;
+        height: 300px;
+        font-size: 0.8em;
+    }
+
+    /* Contact Page */
+    .contact_page {
+        height: auto;
+        padding: 2em;
     }
 
     .contact_page form {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 2em;
-        gap: 1.5em;
-        height: 15em;
-        width: 87vh;
-        border-radius: 1em;
-        background-color: rgb(204, 235, 235);
+        flex-direction: column;
+        height: auto;
+        padding: 1em;
+    }
+
+    .contact_page form input[type="text"],
+    .contact_page form input[type="email"],
+    .contact_page form textarea {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .contact_page form button {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 1em;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    footer ul li a {
+        font-size: 1.2em;
+    }
+
+    .social_media a img {
+        height: 2em;
+    }
+
+    .social_media p {
+        margin-top: 0.5em;
+        font-size: 1em;
     }
 }
