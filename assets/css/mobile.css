@@ -227,6 +227,15 @@
         padding: 2em;
     }
 
+    .contact_page h2 {
+        font-size: 5em;
+        color: #fafafa;
+    }
+    .contact_page p{
+        font-size: 3em;
+        padding:2em;
+    }
+
     .contact_page form {
         flex-direction: column;
         font-size: 4em;
