@@ -99,7 +99,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: au;
     background-color: rgb(66, 55, 55);
     color: rgb(141, 141, 141);
     gap: 2em;
@@ -171,7 +171,7 @@ header {
 .about_me_page {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: auto;
     border: 1px solid black;
     background-color: #2D4150;
 
@@ -213,7 +213,7 @@ header {
 /* THIRD */
 .third_page {
     display: flex;
-    height: 100vh;
+    height: auto;
     width: 100%;
     border: 1px solid black;
 }
@@ -388,7 +388,7 @@ header {
     justify-content: flex-start;
     padding: 3em;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: rgb(29, 40, 61);
     color: rgb(190, 190, 190);
 }
