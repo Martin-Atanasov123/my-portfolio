@@ -173,7 +173,7 @@
     /* About Me Page */
     .about_me_page {
         flex-direction: column;
-        height: 100vh;
+        
     }
 
     .about_me_page .left_side {
@@ -188,7 +188,7 @@
     /* Third Page */
     .third_page {
         flex-direction: column;
-        height: 60vh;
+        
     }
 
 
