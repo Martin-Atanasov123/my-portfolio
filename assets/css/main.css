@@ -56,9 +56,7 @@ header {
     padding: 1.5em;
 }
 
-#mob {
-    display: none ;
-}
+
 
 #nav ul {
     display: flex;
@@ -100,9 +98,10 @@ header {
     justify-content: center;
     width: 100%;
     height: au;
-    background-color: rgb(66, 55, 55);
-    color: rgb(141, 141, 141);
     gap: 2em;
+    padding: 4em;
+    color: rgb(141, 141, 141);
+    background-color: rgb(66, 55, 55);
 }
 
 .first-page h2 {
@@ -171,20 +170,22 @@ header {
 .about_me_page {
     display: flex;
     width: 100%;
-    height: auto;
     border: 1px solid black;
-    background-color: #2D4150;
+    /* background-color: #2D4150; */
+    background-color: #b2c8d8;
 
 }
 
 .about_me_page .left_side {
-    flex: 1 0 0;
-    flex-wrap: wrap;
     display: flex;
+    flex: 1 1 0;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    background-color: #2D4150;
-    padding: 6em;
+    background-color: #0073e6;
+    border-radius: 3em;
+    padding: 3em;
+    margin: 2em;
     font-size: 24px;
     animation: secondPage 2.5s ease 0s 1 normal forwards;
 }
@@ -206,7 +207,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     flex-wrap: nowrap;
-    width: 50%;
+    width: 60%;
     animation: fadeInUp 3s forwards;
 }
 
