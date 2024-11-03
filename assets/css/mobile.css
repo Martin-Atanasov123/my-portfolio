@@ -240,7 +240,7 @@
         flex-direction: column;
         font-size: 4em;
         height: auto;
-        width: 45vh;
+        width: auto;
         margin-bottom: 1em;
         padding: 1em;
     }
@@ -249,14 +249,13 @@
     .contact_page form input[type="email"],
     .contact_page form textarea {
         width: 100%;
-        height: 5vh;
         font-size: xx-large;
+        padding: 1em;
         margin-bottom: 1em;
     }
 
     .contact_page form button {
         font-size: xx-large;
-        height: 5vh;
         width: 100%;
     }
 
