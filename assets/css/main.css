@@ -203,11 +203,11 @@ header {
 }
 
 .about_me_page .right_side {
-    background-image: url(/my-portfolio/assets/img/horses.png);
+    background-image: url(/my-portfolio/assets/img/Marketing-Target--Streamline-Bangalore.svg);
     background-size: cover;
     background-repeat: no-repeat;
     flex-wrap: nowrap;
-    width: 60%;
+    width: 40%;
     animation: fadeInUp 3s forwards;
 }
 
