@@ -39,17 +39,13 @@
     font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: rgb(65, 55, 55);
-
-}
 
 .menu{
     display: none;
 }
 
 #nav {
-    animation: nav 2s ease-in-out 0s 1 normal forwards;
+    /* animation: nav 2s ease-in-out 0s 1 normal forwards; */
     display: flex;
     background-color: rgb(38, 39, 39);
     justify-content: space-evenly;
@@ -101,14 +97,14 @@ header {
     gap: 2em;
     padding: 4em;
     color: rgb(141, 141, 141);
-    background-color: rgb(66, 55, 55);
+    background-color: #cbdad5;
 }
 
 .first-page h2 {
     animation: firstPage 2.5s ease 0s 1 normal forwards;
     font-size: 3em;
     padding-bottom: 1em;
-    color: rgb(212, 200, 85);
+    color: rgb(0, 0, 0);
 }
 
 .first-page img {
@@ -116,6 +112,7 @@ header {
     width: 300px;
     height: 300px;
     border-radius: 50em;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 
@@ -397,12 +394,13 @@ header {
 
 .projects_page {
     display: flex;
+    border: 2px #000000 solid ;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding: 3em;
     width: 100%;
-    background-color: rgb(29, 40, 61);
+    background-color: #d8c8b8;
     color: rgb(190, 190, 190);
 }
 
@@ -459,8 +457,17 @@ header {
     justify-content: center;
     width: 100%;
     height: 55vh;
-    background-color: rgb(80, 90, 109);
+    background-color: #a86b4c;
     color: rgb(190, 190, 190);
+}
+.contact_page p:nth-child(1){
+    font-size: xx-large;
+    color: white;
+}
+.contact_page p:nth-child(2){
+    font-size: large;
+    padding: 1em;
+    color: white;
 }
 
 .contact_page form {
@@ -472,7 +479,7 @@ header {
     gap: 1.5em;
     height: 20em;
     border-radius: 1em;
-    background-color: rgb(204, 235, 235);
+    background-color: #e8c382;
 }
 
 .contact_page form input[type="text"],
@@ -514,7 +521,7 @@ header {
 footer {
     display: flex;
     flex-direction: row;
-    background-color: #7a2323;
+    background-color:#7d1a0c ;
     justify-content: space-around;
     align-items: center;
     padding: 1em;
