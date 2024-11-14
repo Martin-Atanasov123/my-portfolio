@@ -232,16 +232,26 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     background-color: #7c65ffb0;
-    flex-grow: 1;
-    padding-top: 6em;
+    padding: 4em;
 }
-.third_page .right_side p{
+.third_page .right_side p:nth-child(1){
+    text-indent: 3em;
+    font-size: xx-large;
+    text-align:center;
+    line-height: 1.5;
+    
+}
+.third_page .right_side p:nth-child(2){
     text-indent: 3em;
     font-size: large;
     text-align:center;
     line-height: 1.5;
+    padding: 15px;
 }
-
+.third_page .right_side details summary{
+    font-size: larger;
+    padding: 5px;
+}
 /* Certificates-PAGE */
 
 .certificates_page {
