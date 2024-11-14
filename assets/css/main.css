@@ -63,16 +63,16 @@ header {
     justify-content: center;
     flex-direction: row;
     list-style-type: none;
-    gap: 1em;
+    gap: 3.5em;
 
 }
 
 #nav ul li a {
     flex-wrap: wrap;
-    flex: 1 0 0;
-    color: rgb(223, 199, 199);
     text-decoration: none;
     padding: 2px;
+    font-size: 1.4em;
+    color: rgb(223, 199, 199);
 }
 
 #nav ul li a:hover {
