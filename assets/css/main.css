@@ -402,7 +402,7 @@
     justify-content: flex-start;
     padding: 3em;
     width: 100%;
-    background-color: #d8c8b8;
+    background-color: #3a3836;
     color: rgb(190, 190, 190);
 }
 
@@ -459,7 +459,7 @@
     justify-content: center;
     width: 100%;
     height: 55vh;
-    background-color: #a86b4c;
+    background-color: #e4d9d3;
     color: rgb(190, 190, 190);
 }
 .contact_page p:nth-child(1){
@@ -481,7 +481,7 @@
     gap: 1.5em;
     height: 20em;
     border-radius: 1em;
-    background-color: #e8c382;
+    background-color: #899aaa;
 }
 
 .contact_page form input[type="text"],
@@ -523,7 +523,7 @@
 footer {
     display: flex;
     flex-direction: row;
-    background-color:#7d1a0c ;
+    background-color:#3b3332 ;
     justify-content: space-around;
     align-items: center;
     padding: 1em;
