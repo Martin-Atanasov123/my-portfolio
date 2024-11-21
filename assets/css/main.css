@@ -402,26 +402,27 @@
     justify-content: flex-start;
     padding: 3em;
     width: 100%;
-    background-color: #3a3836;
+    background-color: #F5F3FF;
     color: rgb(190, 190, 190);
+    
 }
 
 .projects_page p:nth-child(1){
     text-align: center;
     padding-bottom: 10px;
     font-size: xx-large;
-    color: #ffffff;
+    color: #000000;
 }
 .projects_page p:nth-child(2){
     text-align: center;
     font-size: x-large;
-    color: #ffffff;
+    color: #000000;
 }
 .project1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/my-portfolio/assets/img/Screenshot\ 2024-11-14\ 195813.png);
+    background-image: url(/my-portfolio/assets/img/banner.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
