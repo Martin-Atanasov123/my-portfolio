@@ -119,6 +119,7 @@
 .first-page p {
     animation: firstPage 2.5s ease 0s 1 normal forwards;
     font-size: 2em;
+    
 }
 
 /* SECOND-PAGE */
@@ -170,6 +171,7 @@
     border: 1px solid black;
     /* background-color: #2D4150; */
     background-color: #b2c8d8;
+    color: #c9d9ee;
 
 }
 
