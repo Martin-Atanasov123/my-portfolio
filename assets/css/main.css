@@ -431,9 +431,8 @@
     align-items: center;
     justify-content: center;
     background-image: url(/my-portfolio/assets/img/projects_page/BLUE-TREE.svg);
+    background-size:cover;
     background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: cover;
     margin-top: 6em;
     width: 750px;
     height: 400px;
