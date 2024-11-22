@@ -40,7 +40,7 @@
 }
 
 
-.menu{
+.menu {
     display: none;
 }
 
@@ -68,7 +68,7 @@
     padding: 2px;
     font-size: 1.4em;
     color: #dfc7c7;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
 }
 
 #nav ul li a:hover {
@@ -81,7 +81,7 @@
     color: rgb(223, 199, 199);
     text-decoration: none;
     text-align: left;
-    
+
 }
 
 
@@ -108,7 +108,7 @@
     animation: firstPage 2.5s ease 0s 1 normal forwards;
     font-size: xxx-large;
     padding: 1em;
-    color:#cfd6dd;
+    color: #cfd6dd;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     font-family: "DynaPuff", system-ui;
 }
@@ -228,24 +228,28 @@
     margin: 5em;
     border-radius: 4em;
 }
-.third_page .right_side p:nth-child(1){
+
+.third_page .right_side p:nth-child(1) {
     text-indent: 3em;
     font-size: xx-large;
-    text-align:center;
+    text-align: center;
     line-height: 1.5;
-    
+
 }
-.third_page .right_side p:nth-child(2){
+
+.third_page .right_side p:nth-child(2) {
     text-indent: 3em;
     font-size: large;
-    text-align:center;
+    text-align: center;
     line-height: 1.5;
     padding: 15px;
 }
-.third_page .right_side details summary{
+
+.third_page .right_side details summary {
     font-size: larger;
     padding: 5px;
 }
+
 /* Certificates-PAGE */
 
 .certificates_page {
@@ -255,15 +259,15 @@
     justify-content: center;
     padding: 3em;
     width: 100%;
-    min-height: 100vh; /* Ensures the content takes at least the full viewport height */
-    background-color: #8babf1;
+    min-height: 100vh;
+    background-color: #e4d9d3;
     color: rgb(190, 190, 190);
 }
 
-.certificates_page > p {
+.certificates_page>p {
     text-align: center;
     padding-bottom: 3em;
-    font-size:xx-large;
+    font-size: xx-large;
     color: #ffffff;
 }
 
@@ -277,6 +281,8 @@
     width: 100%;
     max-width: 1500px;
     background-color: rgb(201, 219, 253);
+    background-color: #899aaa;
+
     padding: 2em;
     border-radius: 1em;
 }
@@ -294,43 +300,51 @@
     height: 360px;
     text-align: center;
 }
-.card:nth-child(1){
+
+.card:nth-child(1) {
     background-repeat: no-repeat;
     background-image: url(/my-portfolio/assets/img/certificates_page/JS\ Front-End\ -\ June\ 2024\ -\ Certificate.jpeg);
     background-size: cover;
 }
-.card:nth-child(2){
+
+.card:nth-child(2) {
     background-repeat: no-repeat;
     background-image: url(/my-portfolio/assets/img/certificates_page/HTML\ &\ CSS\ -\ May\ 2024\ -\ Certificate.jpeg);
     background-size: cover;
 }
-.card:nth-child(3){
+
+.card:nth-child(3) {
     background-repeat: no-repeat;
     background-image: url(/my-portfolio/assets/img/certificates_page/Programming\ Fundamentals\ with\ Python\ -\ May\ 2023\ -\ Certificate.jpeg);
     background-size: cover;
 }
-.card:nth-child(4){
+
+.card:nth-child(4) {
     background-repeat: no-repeat;
     background-image: url(/my-portfolio/assets/img/certificates_page/Programming\ Basics\ -\ March\ 2023\ -\ Certificate.jpeg);
     background-size: cover;
 }
-.card:nth-child(5){
+
+.card:nth-child(5) {
     background-repeat: no-repeat;
     background-image: url(/my-portfolio/assets/img/certificates_page/programizz.jpeg);
     background-size: cover;
 }
-.card:nth-child(6){
+
+.card:nth-child(6) {
     width: 500px;
     background-repeat: no-repeat;
     background-image: url(/my-portfolio/assets/img/certificates_page/Sololearn\ 1.2.jpg);
     background-size: cover;
 }
-.card:nth-child(7){
+
+.card:nth-child(7) {
     width: 500px;
     background-repeat: no-repeat;
     background-image: url(/my-portfolio/assets/img/certificates_page/Sololearn\ 2.jpg);
     background-size: cover;
 }
+
 .card:hover {
     transform: scale(1.1);
 }
@@ -339,7 +353,7 @@
 
 .btn {
     height: 3em;
-    width:8em;
+    width: 8em;
     padding: 0.5em 1em;
     background-color: #1d283d;
     color: white;
@@ -388,7 +402,7 @@
 
 .projects_page {
     display: flex;
-    border: 2px #000000 solid ;
+    border: 2px #000000 solid;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -396,20 +410,22 @@
     width: 100%;
     background-color: #F5F3FF;
     color: rgb(190, 190, 190);
-    
+
 }
 
-.projects_page p:nth-child(1){
+.projects_page p:nth-child(1) {
     text-align: center;
     padding-bottom: 10px;
     font-size: xx-large;
     color: #000000;
 }
-.projects_page p:nth-child(2){
+
+.projects_page p:nth-child(2) {
     text-align: center;
     font-size: x-large;
     color: #000000;
 }
+
 .project1 {
     display: flex;
     align-items: center;
@@ -425,7 +441,8 @@
     border: 3px solid #dfdfdf;
 
 }
-.project1 button{
+
+.project1 button {
     background-color: #3a3232;
     border: 4px solid #000000;
 
@@ -436,6 +453,7 @@
     font-size: large;
     text-decoration: none;
 }
+
 .project1:hover {
     background-color: #3a3232;
     border: 3px solid #000000;
@@ -455,11 +473,13 @@
     background-color: #e4d9d3;
     color: rgb(190, 190, 190);
 }
-.contact_page p:nth-child(1){
+
+.contact_page p:nth-child(1) {
     font-size: xx-large;
     color: white;
 }
-.contact_page p:nth-child(2){
+
+.contact_page p:nth-child(2) {
     font-size: large;
     padding: 1em;
     color: white;
@@ -516,7 +536,7 @@
 footer {
     display: flex;
     flex-direction: row;
-    background-color:#3b3332 ;
+    background-color: #3b3332;
     justify-content: space-around;
     align-items: center;
     padding: 1em;
@@ -556,4 +576,3 @@ footer ul li a:hover {
     color: #aca6a6;
     margin-top: 1em;
 }
-
