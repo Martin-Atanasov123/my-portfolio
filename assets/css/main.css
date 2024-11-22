@@ -45,7 +45,6 @@
 }
 
 #nav {
-    /* animation: nav 2s ease-in-out 0s 1 normal forwards; */
     display: flex;
     background-color: rgb(38, 39, 39);
     justify-content: space-evenly;
@@ -166,8 +165,7 @@
     display: flex;
     width: 100%;
     border: 1px solid black;
-    /* background-color: #2D4150; */
-    background-color: #b2c8d8;
+    background-color: #e4d9d3;
     color: #c9d9ee;
 
 }
@@ -178,7 +176,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    background-color: #0073e6;
+    background-color: #46494d;
     border-radius: 3em;
     padding: 3em;
     margin: 2em;
@@ -217,7 +215,7 @@
 }
 
 .third_page .left_side {
-    background-image: url(/my-portfolio/assets/img/Working-rafiki.png);
+    background-image: url(/my-portfolio/assets/img/third_page/Working-rafiki.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
@@ -301,39 +299,39 @@
 }
 .card:nth-child(1){
     background-repeat: no-repeat;
-    background-image: url(/my-portfolio/assets/img/JS\ Front-End\ -\ June\ 2024\ -\ Certificate.jpeg);
+    background-image: url(/my-portfolio/assets/img/certificates_page/JS\ Front-End\ -\ June\ 2024\ -\ Certificate.jpeg);
     background-size: cover;
 }
 .card:nth-child(2){
     background-repeat: no-repeat;
-    background-image: url(/my-portfolio/assets/img/HTML\ &\ CSS\ -\ May\ 2024\ -\ Certificate.jpeg);
+    background-image: url(/my-portfolio/assets/img/certificates_page/HTML\ &\ CSS\ -\ May\ 2024\ -\ Certificate.jpeg);
     background-size: cover;
 }
 .card:nth-child(3){
     background-repeat: no-repeat;
-    background-image: url(/my-portfolio/assets/img/Programming\ Fundamentals\ with\ Python\ -\ May\ 2023\ -\ Certificate.jpeg);
+    background-image: url(/my-portfolio/assets/img/certificates_page/Programming\ Fundamentals\ with\ Python\ -\ May\ 2023\ -\ Certificate.jpeg);
     background-size: cover;
 }
 .card:nth-child(4){
     background-repeat: no-repeat;
-    background-image: url(/my-portfolio/assets/img/Programming\ Basics\ -\ March\ 2023\ -\ Certificate.jpeg);
+    background-image: url(/my-portfolio/assets/img/certificates_page/Programming\ Basics\ -\ March\ 2023\ -\ Certificate.jpeg);
     background-size: cover;
 }
 .card:nth-child(5){
     background-repeat: no-repeat;
-    background-image: url(/my-portfolio/assets/img/programizz.jpeg);
+    background-image: url(/my-portfolio/assets/img/certificates_page/programizz.jpeg);
     background-size: cover;
 }
 .card:nth-child(6){
     width: 500px;
     background-repeat: no-repeat;
-    background-image: url(/my-portfolio/assets/img/Sololearn\ 1.2.jpg);
+    background-image: url(/my-portfolio/assets/img/certificates_page/Sololearn\ 1.2.jpg);
     background-size: cover;
 }
 .card:nth-child(7){
     width: 500px;
     background-repeat: no-repeat;
-    background-image: url(/my-portfolio/assets/img/Sololearn\ 2.jpg);
+    background-image: url(/my-portfolio/assets/img/certificates_page/Sololearn\ 2.jpg);
     background-size: cover;
 }
 .card:hover {
@@ -419,7 +417,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/my-portfolio/assets/img/BLUE-TREE.svg);
+    background-image: url(/my-portfolio/assets/img/projects_page/BLUE-TREE.svg);
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
