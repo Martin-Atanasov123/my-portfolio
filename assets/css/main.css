@@ -46,7 +46,7 @@
 
 #nav {
     display: flex;
-    background-color: rgb(38, 39, 39);
+    background-color: #262727;
     justify-content: space-evenly;
     padding: 1.5em;
 }
@@ -67,7 +67,7 @@
     text-decoration: none;
     padding: 2px;
     font-size: 1.4em;
-    color: rgb(223, 199, 199);
+    color: #dfc7c7;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
 }
 
@@ -208,10 +208,12 @@
     width: 100%;
     border: 1px solid black;
     background-color: #aba0e5b0;
+    background-color: #8b8b7b;
+
 }
 
 .third_page .left_side {
-    background-image: url(/my-portfolio/assets/img/third_page/Working-rafiki.png);
+    background-image: url(/my-portfolio/assets/img/third_page//Office-Desk--Streamline-Bangalore.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
@@ -222,7 +224,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #7c65ffb0;
+    background-color: #5f522eb0;
     padding: 1em;
     margin: 5em;
     border-radius: 4em;
