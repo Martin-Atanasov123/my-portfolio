@@ -99,7 +99,7 @@
     padding: 4em;
     color: rgb(141, 141, 141);
     background-color: #cbdad5;
-    background-image: url(/my-portfolio/assets/img/header.jpg);
+    background-image: url(/my-portfolio/assets/img/first-page/header.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -178,15 +178,15 @@
     justify-content: center;
     background-color: #46494d;
     border-radius: 3em;
-    padding: 3em;
-    margin: 2em;
+    padding: 2em;
+    margin: 3em;
     font-size: 24px;
     animation: secondPage 2.5s ease 0s 1 normal forwards;
 }
 
 .about_me_page .left_side h2 {
     text-align: center;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     animation: secondPage 2.5s ease 0s 1 normal forwards;
 }
 
@@ -197,10 +197,6 @@
 }
 
 .about_me_page .right_side {
-    background-image: url(/my-portfolio/assets/img/Marketing-Target--Streamline-Bangalore.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-wrap: nowrap;
     width: 40%;
     animation: fadeInUp 3s forwards;
 }
