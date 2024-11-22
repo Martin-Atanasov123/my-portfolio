@@ -69,6 +69,7 @@
     padding: 2px;
     font-size: 1.4em;
     color: rgb(223, 199, 199);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
 }
 
 #nav ul li a:hover {
@@ -81,6 +82,7 @@
     color: rgb(223, 199, 199);
     text-decoration: none;
     text-align: left;
+    
 }
 
 
