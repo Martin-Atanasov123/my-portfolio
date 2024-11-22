@@ -93,34 +93,28 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: au;
+    min-height: 100vh;
     gap: 2em;
     padding: 4em;
     color: rgb(141, 141, 141);
     background-color: #cbdad5;
+    background-image: url(/my-portfolio/assets/img/header.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.first-page h2 {
+.first-page P {
     animation: firstPage 2.5s ease 0s 1 normal forwards;
-    font-size: 3em;
-    padding-bottom: 1em;
-    color: rgb(0, 0, 0);
-}
-
-.first-page img {
-    animation: firstPage 2.5s ease 0s 1 normal forwards;
-    width: 300px;
-    height: 300px;
-    border-radius: 50em;
-    border: 5px solid rgb(0, 0, 0);
+    font-size: xxx-large;
+    padding: 1em;
+    color:#cfd6dd;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 
-.first-page p {
-    animation: firstPage 2.5s ease 0s 1 normal forwards;
-    font-size: 2em;
-    
-}
+
+
+
 
 /* SECOND-PAGE */
 
