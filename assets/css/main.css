@@ -340,7 +340,7 @@ https://storyset.com/illustration/online-learning/bro
 .card:nth-child(6) {
     width: 500px;
     background-repeat: no-repeat;
-    background-image: url(/my-portfolio/assets/img/certificates_page/Sololearn\ 1.2.jpg);
+    background-image: url(/my-portfolio/assets/img/certificates_page/Sololearn\ Web\ Development.jpg);
     background-size: cover;
 }
 
@@ -438,7 +438,6 @@ https://storyset.com/illustration/online-learning/bro
     justify-content: center;
     background-color: #3a3232;
     flex-direction: column;
-    /* background-image: url(/my-portfolio/assets/img/projects_page/BLUE-TREE.svg); */
     background-size:cover;
     background-repeat: no-repeat;
     margin-top: 6em;
