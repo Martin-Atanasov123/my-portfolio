@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #3b3332;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    height: 15vh;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+}
+
+footer ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.social_media a img {
+    align-items: center;
+    text-decoration: none;
+    height: 2.5em;
+}
+
+.social_media a:hover img {
+    transform: scale(1.1);
+}
+
+.social_media p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #aca6a6;
+    margin-top: 1em;
+}
