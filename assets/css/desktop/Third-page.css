@@ -1,0 +1,47 @@
+.third_page {
+    display: flex;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #BFBFBF;
+
+}
+
+.third_page .left_side {
+    background-image: url(/my-portfolio/assets/img/third_page//Office-Desk--Streamline-Bangalore.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+}
+
+.third_page .right_side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #5f522eb0;
+    padding: 1em;
+    margin: 5em;
+    border-radius: 4em;
+}
+
+.third_page .right_side p:nth-child(1) {
+    text-indent: 3em;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.third_page .right_side p:nth-child(2) {
+    text-indent: 3em;
+    font-size: large;
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.third_page .right_side details summary {
+    font-size: larger;
+    padding: 5px;
+}
