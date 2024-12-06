@@ -1,0 +1,34 @@
+
+@keyframes firstPage {
+    0% {
+        transform: translateY(-150px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+.first-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    gap: 2em;
+    padding: 4em;
+    color: rgb(141, 141, 141);
+    background-color: #cbdad5;
+    background-image: url(/my-portfolio/assets/img/first-page/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.first-page P {
+    animation: firstPage 2.5s ease 0s 1 normal forwards;
+    font-size: xxx-large;
+    padding: 1em;
+    color: #cfd6dd;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    font-family: "DynaPuff", system-ui;
+}

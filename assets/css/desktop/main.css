@@ -5,28 +5,12 @@ https://www.streamlinehq.com/illustrations
 https://storyset.com/illustration/online-learning/bro
 ...
 */
+@import url('/my-portfolio/assets/css/desktop/header.css');
+@import url('/my-portfolio/assets/css/desktop/First-page.css');
 
-@keyframes nav {
-    0% {
-        transform: translateY(-10px);
-        opacity: 0%;
-    }
 
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
 
-@keyframes firstPage {
-    0% {
-        transform: translateY(-150px);
-    }
 
-    100% {
-        transform: translateY(0px);
-    }
-}
 
 @keyframes secondPage {
     0% {
@@ -45,79 +29,6 @@ https://storyset.com/illustration/online-learning/bro
     font-family: Arial, sans-serif;
 }
 
-
-.menu {
-    display: none;
-}
-
-#nav {
-    display: flex;
-    background-color: #262727;
-    justify-content: space-evenly;
-    padding: 1.5em;
-}
-
-
-
-#nav ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    list-style-type: none;
-    gap: 3.5em;
-
-}
-
-#nav ul li a {
-    flex-wrap: wrap;
-    text-decoration: none;
-    padding: 2px;
-    font-size: 1.4em;
-    color: #dfc7c7;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
-}
-
-#nav ul li a:hover {
-    color: rgb(170, 114, 114);
-    border: 2px solid rgb(88, 80, 80);
-    border-radius: 10px;
-}
-
-#logo a {
-    color: rgb(223, 199, 199);
-    text-decoration: none;
-    text-align: left;
-
-}
-
-
-
-/* FIRST-PAGE */
-
-.first-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100vh;
-    gap: 2em;
-    padding: 4em;
-    color: rgb(141, 141, 141);
-    background-color: #cbdad5;
-    background-image: url(/my-portfolio/assets/img/first-page/header.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.first-page P {
-    animation: firstPage 2.5s ease 0s 1 normal forwards;
-    font-size: xxx-large;
-    padding: 1em;
-    color: #cfd6dd;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
-    font-family: "DynaPuff", system-ui;
-}
 
 
 
