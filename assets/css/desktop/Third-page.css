@@ -48,16 +48,24 @@
 @media only screen and (max-width: 1080px) {
 
     .third_page .right_side p:nth-child(1) {
-        text-indent: 3em;
+        text-indent: 2em;
         font-size: xx-large;
         text-align: center;
         line-height: 1.5;
     
     }
     
+    .third_page .right_side p:nth-child(2) {}
+    
+    .third_page .right_side {
+        margin: 1em;
+        padding: 1em;
+    }
+    
     .third_page .left_side{
         display: none ;
     }
+
     
 }
 
