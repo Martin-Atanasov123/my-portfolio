@@ -56,7 +56,7 @@
     }
     
     .third_page .left_side{
-        display: none !important;
+        display: none ;
     }
     
 }
