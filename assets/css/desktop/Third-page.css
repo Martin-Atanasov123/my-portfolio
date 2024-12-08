@@ -47,7 +47,17 @@
 }
 @media only screen and (max-width: 1080px) {
 
-
+    .third_page .right_side p:nth-child(1) {
+        text-indent: 3em;
+        font-size: xx-large;
+        text-align: center;
+        line-height: 1.5;
+    
+    }
+    
+    .third_page .left_side{
+        display: none !important;
+    }
     
 }
 
