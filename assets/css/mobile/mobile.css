@@ -186,7 +186,7 @@
     }
 
     /* Third Page */
-    .third_page {
+    /* .third_page {
         flex-direction: column;
         
     }
@@ -204,7 +204,7 @@
 
     .third_page .right_side p {
         font-size: 1em;
-    }
+    } */
 
     /* Certificates Page */
     .certificates_page {
