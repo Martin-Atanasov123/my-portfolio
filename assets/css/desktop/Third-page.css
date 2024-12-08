@@ -54,8 +54,9 @@
         line-height: 1.5;
     
     }
-    
-    .third_page .right_side p:nth-child(2) {}
+    .third_page .right_side p{
+        font-size: 3em;
+    }
     
     .third_page .right_side {
         margin: 1em;
