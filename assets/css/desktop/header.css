@@ -60,7 +60,7 @@
     }
 
     /* Navigation */
-    #nav>ul {
+    header #nav {
         display: none;
     }
 
