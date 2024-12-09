@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 768px) {
     /* Styles for mobile devices */
 
     /* Header */
@@ -170,20 +170,7 @@
         font-size: 3em;
     }
 
-    /* About Me Page */
-    .about_me_page {
-        flex-direction: column;
-        
-    }
 
-    .about_me_page .left_side {
-        padding: 2em;
-        font-size: 3em;
-    }
-
-    .about_me_page .right_side {
-        display: none;
-    }
 
     /* Third Page */
     /* .third_page {
@@ -286,12 +273,13 @@
         margin-top: 2em;
     }
     .social_media a img {
-        height: 5em;
+        height: auto;
+        display: none !important;
     }
 
     .social_media p {
         margin-top: 0.5em;
-        font-size: 2em;
+        font-size: 1em;
     }
 
 

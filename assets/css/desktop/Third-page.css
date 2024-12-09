@@ -45,7 +45,7 @@
     font-size: larger;
     padding: 5px;
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 768px) {
 
     .third_page .right_side p:nth-child(1) {
         text-indent: 2em;
