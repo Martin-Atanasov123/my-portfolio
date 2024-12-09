@@ -65,8 +65,8 @@
     justify-content: center;
     background-color: #46494d;
     border-radius: 3em;
-    padding: 2em;
-    margin: 3em;
+    padding: 1em;
+    margin: 1em;
     font-size: 24px;
     animation: secondPage 2.5s ease 0s 1 normal forwards;
 }
@@ -86,4 +86,13 @@
 .about_me_page .right_side {
     width: 40%;
     animation: fadeInUp 3s forwards;
+}
+@media  (max-width: 768px){
+    .about_me_page .left_side {
+        width: auto;
+        font-size: large;
+    }
+    .about_me_page .right_side{
+        display: none !important;
+    }
 }
