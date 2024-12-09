@@ -142,3 +142,19 @@
     color: white;
     cursor: pointer;
 }
+
+@media  (max-width: 768px) {
+    .certificates_page {
+        padding: 2em;
+    }
+
+    .certificates_page>p {
+        font-size: 1.5em;
+    }
+
+    .card {
+        width: 450px;
+        height: 500px;
+        font-size: 1em;
+    }
+}
