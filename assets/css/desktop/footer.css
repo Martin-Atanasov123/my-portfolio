@@ -41,3 +41,40 @@ footer ul li a:hover {
     color: #aca6a6;
     margin-top: 1em;
 }
+
+@media (max-width: 768px) {
+    footer {   
+        height: auto;
+        padding: 1em;
+    }
+
+    footer ul {
+        margin-top:2em ;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    footer ul li a {
+        font-size: 1em;
+    }
+
+    .social_media{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        flex-direction: column;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+    .social_media a img {
+        height: 2em;
+        width: 2em;
+    }
+
+    .social_media p {
+        margin-top: 0.5em;
+        font-size: 1em;
+    }
+}

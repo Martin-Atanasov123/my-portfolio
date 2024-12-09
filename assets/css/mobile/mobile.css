@@ -247,40 +247,7 @@
     }
 
     /* Footer */
-    footer {   
-        height: auto;
-        padding: 1em;
-    }
-
-    footer ul {
-        margin-top:2em ;
-        flex-direction: column;
-        gap: 0.5em;
-    }
-
-    footer ul li a {
-        font-size: 3em;
-    }
-
-    .social_media{
-        display: flex;
-        flex-wrap: wrap;
-        width: 40%;
-        flex-direction: column;
-        gap: 1em;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2em;
-    }
-    .social_media a img {
-        height: auto;
-        display: none !important;
-    }
-
-    .social_media p {
-        margin-top: 0.5em;
-        font-size: 1em;
-    }
+    
 
 
 

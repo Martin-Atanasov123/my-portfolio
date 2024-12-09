@@ -32,3 +32,9 @@
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     font-family: "DynaPuff", system-ui;
 }
+
+@media (max-width: 768px){
+    body {
+        font-size: 20px;
+    }
+}
