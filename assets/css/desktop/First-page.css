@@ -34,24 +34,15 @@
 }
 
 @media (max-width: 768px){
-    body {
+    /* body {
         font-size: 20px;
-    }
+    } */
     .first-page {
 
         padding: 2em;
     }
 
-    .first-page h2 {
-        font-size: 6em;
-    }
-
-    .first-page img {
-        width: 450px;
-        height: 450px;
-    }
-
     .first-page p {
-        font-size: 3em;
+        font-size: 55px;
     }
 }

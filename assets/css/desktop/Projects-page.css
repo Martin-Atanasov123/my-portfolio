@@ -66,11 +66,9 @@
 
 
 @media (max-width: 768px) {
-    /* Общи стилове за телефони и таблети */
+
     .project1{
         width: 100%;
         height: 200px;
-
-
     }
 }
