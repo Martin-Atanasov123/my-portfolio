@@ -61,7 +61,7 @@
 }
 .third_page .right_side img:hover{
     background-color: #999999;
-    
+    transform: scale(1.1);
 }
 
 
