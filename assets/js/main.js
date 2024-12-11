@@ -46,3 +46,19 @@ closeBtn.addEventListener('click', () => {
     // Hide the full-screen container
     fullscreenContainer.style.display = 'none';
 });
+
+
+// mobile menu
+document.addEventListener('DOMContentLoaded', () => {
+    const menuIcon = document.getElementById('menuIcon');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    menuIcon.addEventListener('click', () => {
+        // Toggle the visibility of the mobile menu
+        if (mobileMenu.style.display === 'flex') {
+            mobileMenu.style.display = 'none';
+        } else {
+            mobileMenu.style.display = 'flex';
+        }
+    });
+});
