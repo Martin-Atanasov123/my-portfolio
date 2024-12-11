@@ -46,11 +46,22 @@
     padding: 5px;
 }
 
+.third_page .right_side .skillsIcons {
+
+    
+}
+
 .third_page .right_side img{
+    flex-direction: row;
     align-items: center;
     text-decoration: none;
+    background-color: #BFBFBF;
+    border-radius: 1em;
     height: 3.5em;
-
+}
+.third_page .right_side img:hover{
+    background-color: #999999;
+    
 }
 
 
