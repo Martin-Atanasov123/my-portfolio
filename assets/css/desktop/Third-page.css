@@ -46,6 +46,13 @@
     padding: 5px;
 }
 
+.third_page .right_side img{
+    align-items: center;
+    text-decoration: none;
+    height: 3.5em;
+
+}
+
 
 @media  (max-width: 768px) {
 
