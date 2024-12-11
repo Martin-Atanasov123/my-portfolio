@@ -20,7 +20,13 @@
     justify-content: space-evenly;
     padding: 1.5em;
 }
-
+#nav img{
+    width: 43px;
+    height: 43px;
+    background-color: #cccccc;
+    padding: 4px;
+    border-radius: 1em;
+}
 
 
 #nav ul {
