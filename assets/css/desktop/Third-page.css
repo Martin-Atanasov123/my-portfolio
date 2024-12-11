@@ -26,19 +26,18 @@
 }
 
 .third_page .right_side p:nth-child(1) {
-    text-indent: 3em;
-    font-size: xx-large;
     text-align: center;
+    font-size: xx-large;
     line-height: 1.5;
 
 }
 
 .third_page .right_side p:nth-child(2) {
-    text-indent: 3em;
     font-size: large;
     text-align: center;
-    line-height: 1.5;
-    padding: 15px;
+    text-indent: 1em;
+    line-height: 1.5em;
+    padding: 14px;
 }
 
 .third_page .right_side details summary {
@@ -46,10 +45,7 @@
     padding: 5px;
 }
 
-.third_page .right_side .skillsIcons {
 
-    
-}
 
 .third_page .right_side img{
     flex-direction: row;
@@ -68,24 +64,26 @@
 
 @media  (max-width: 768px) {
 
-    .third_page .right_side p:nth-child(1) {
+    .third_page .left_side{
+        display: none ;
+    }
+    #skill{
+        padding: 0px;
         text-align: center;
-        font-size: xx-large;
-        line-height: 1.5;
     }
     .third_page .right_side p{
         text-align:start;
-        font-size: 3em;
+        font-size: 1.5em;
         font-weight: bold;
+        padding: 1em;
     }
     
     .third_page .right_side {
         margin: 1.5em;
         padding: 1em;
     }
-    
-    .third_page .left_side{
-        display: none ;
+    .third_page .right_side details summary {
+        display: none;
     }
 
     
