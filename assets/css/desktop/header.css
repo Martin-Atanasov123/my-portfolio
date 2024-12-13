@@ -101,6 +101,7 @@
         font-size: 24px;
         color: #fff;
         cursor: pointer;
+        
     }
     
     .mobile-menu {
@@ -117,6 +118,16 @@
         z-index: 1000;
     }
     
+
+    img{
+        width: 40px;
+        height: 40px;
+
+        padding: 4px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+
     .mobile-menu ul {
         list-style: none;
         margin: 0;
