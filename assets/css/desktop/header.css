@@ -17,7 +17,7 @@
 #nav {
     display: flex;
     background-color: #262727;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 1.5em;
 }
 #nav img{
