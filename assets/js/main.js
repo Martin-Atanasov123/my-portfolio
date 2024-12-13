@@ -62,3 +62,22 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+
+
+// Function to toggle the menu visibility on small screens
+// function toggleMenu() {
+//     const mobileMenu = document.getElementById('menuIcon');
+//     mobileMenu.classList.toggle('show');
+// }
+
+
+// Function to close the menu
+function closeMenu() {
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenu.style.display = 'none';
+}
+
+
+
