@@ -36,6 +36,7 @@
 .third_page .right_side p:nth-child(2) {
     font-size: large;
     text-align: center;
+    font-weight: bold;
     text-indent: 1em;
     line-height: 1.5em;
     padding: 14px;
