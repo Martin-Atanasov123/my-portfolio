@@ -50,11 +50,12 @@
     text-decoration: none;
     background-color: #e4d9d3;
     border-radius: 1em;
+    padding: 3px;
     height: 3.5em;
 }
 .third_page .right_side img:hover{
 
-    background-color: #db3333;
+    background-color: #818181;
     transform: scale(1.1);
 }
 
