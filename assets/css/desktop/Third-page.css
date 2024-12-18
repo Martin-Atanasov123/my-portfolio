@@ -40,10 +40,7 @@
     padding: 14px;
 }
 
-.third_page .right_side details summary {
-    font-size: larger;
-    padding: 5px;
-}
+
 
 
 
@@ -57,7 +54,7 @@
 }
 .third_page .right_side img:hover{
 
-    background-color: #BFBFBF;
+    background-color: #db3333;
     transform: scale(1.1);
 }
 
