@@ -8,10 +8,11 @@
 }
 
 .third_page .left_side {
-    background-image: url(/my-portfolio/assets/img/third_page//Office-Desk--Streamline-Bangalore.svg);
+    background-image: url(/my-portfolio/assets/img/third_page/Profile\ data-bro.svg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 70%;
 }
 
 .third_page .right_side {
